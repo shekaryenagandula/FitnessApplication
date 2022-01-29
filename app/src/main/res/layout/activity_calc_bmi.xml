@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CalcBMI">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:fontFamily="serif-monospace"
+        android:text="Body Mass Index"
+        android:layout_marginTop="60sp"
+        android:layout_marginBottom="30sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:orientation="horizontal"
+        android:textAlignment="center"
+        >
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:text="Height"
+            android:textSize="30sp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/heighttxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+
+            android:ems="10"
+            android:hint="Height in cm"
+            android:inputType="number"
+            android:text=""
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10sp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:textAlignment="center"
+        >
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="Weight"
+            android:layout_margin="10sp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/weighttxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_margin="10sp"
+            android:inputType="number"
+            android:hint="Wight in kg"
+            android:text=""
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/calculatebtn"
+        android:layout_marginTop="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALCULATE"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/outputscore"
+        android:layout_marginTop="80sp"
+        android:layout_width="300sp"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Your BMI is " />
+    <TextView
+        android:id="@+id/bmitype"
+        android:layout_marginTop="80sp"
+        android:layout_width="300sp"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_height="wrap_content"
+        android:text="Category:" />
+
+</LinearLayout>

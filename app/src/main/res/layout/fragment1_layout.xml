@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_grey"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageButtonRel1">
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="300sp"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/abs" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageButton1"
+                android:layout_alignRight="@+id/imageButton1"
+                android:layout_alignTop="@+id/imageButton1"
+                android:gravity="center"
+                android:text="Abs"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_margin="1sp"
+                android:textSize="40sp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/imageButtonRel1"
+            android:id="@+id/imageButtonRel2">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="300sp"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/biceps" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageButton2"
+                android:layout_alignRight="@+id/imageButton2"
+                android:layout_alignTop="@+id/imageButton2"
+                android:gravity="center"
+                android:text="Biceps"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_margin="1sp"
+                android:textSize="50sp"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/imageButtonRel2"
+            android:id="@+id/imageButtonRel3">
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="300sp"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/chest" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageButton3"
+                android:layout_alignRight="@+id/imageButton3"
+                android:layout_alignTop="@+id/imageButton3"
+                android:gravity="center"
+                android:text="Chest"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_margin="1sp"
+                android:textSize="40sp"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/imageButtonRel3"
+            android:id="@+id/imageButtonRel4">
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="300sp"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/triceps" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageButton4"
+                android:layout_alignRight="@+id/imageButton4"
+                android:layout_alignTop="@+id/imageButton4"
+                android:gravity="center"
+                android:text="Triceps"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_margin="1sp"
+                android:textSize="40sp"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/imageButtonRel4"
+            android:id="@+id/imageButtonRel5">
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="300sp"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageButton5"
+                android:layout_alignRight="@+id/imageButton5"
+                android:layout_alignTop="@+id/imageButton5"
+                android:gravity="center"
+                android:text="Back"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_margin="1sp"
+                android:textSize="40sp"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/imageButtonRel5"
+            android:id="@+id/imageButtonRel6">
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="300sp"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/cardio" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageButton6"
+                android:layout_alignRight="@+id/imageButton6"
+                android:layout_alignTop="@+id/imageButton6"
+                android:gravity="center"
+                android:text="Cardio"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_margin="1sp"
+                android:textSize="40sp"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/imageButtonRel6"
+            android:id="@+id/imageButtonRel7">
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="300sp"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/forearm" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageButton7"
+                android:layout_alignRight="@+id/imageButton7"
+                android:layout_alignTop="@+id/imageButton7"
+                android:gravity="center"
+                android:text="Forearm"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_margin="1sp"
+                android:textSize="40sp"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/imageButtonRel7"
+            android:id="@+id/imageButtonRel8">
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="wrap_content"
+                android:layout_height="300sp"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/leg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageButton8"
+                android:layout_alignRight="@+id/imageButton8"
+                android:layout_alignTop="@+id/imageButton8"
+                android:gravity="center"
+                android:text="Leg"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_margin="1sp"
+                android:textSize="40sp"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/imageButtonRel8"
+            android:id="@+id/imageButtonRel9">
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="wrap_content"
+                android:layout_height="300sp"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/calf" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageButton9"
+                android:layout_alignRight="@+id/imageButton9"
+                android:layout_alignTop="@+id/imageButton9"
+                android:gravity="center"
+                android:text="Calf"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_margin="1sp"
+                android:textSize="40sp"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/imageButtonRel9"
+            android:id="@+id/imageButtonRel10">
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="wrap_content"
+                android:layout_height="300sp"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/biceps" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageButton10"
+                android:layout_alignRight="@+id/imageButton10"
+                android:layout_alignTop="@+id/imageButton10"
+                android:gravity="center"
+                android:text="Shoulder"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_margin="1sp"
+                android:textSize="40sp"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+    </ScrollView>

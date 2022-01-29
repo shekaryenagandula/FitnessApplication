@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/dark_grey"
+    tools:context=".AbsExer">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/plankimg"
+                android:layout_width="match_parent"
+                android:layout_height="300sp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/plank" />
+
+            <TextView
+                android:id="@+id/planktxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plank"
+                android:textSize="40sp"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"/>
+
+            <ImageButton
+                android:id="@+id/crunchimg"
+                android:layout_width="match_parent"
+                android:layout_height="300sp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/crunch" />
+
+            <TextView
+                android:id="@+id/crunchtxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crunches"
+                android:textSize="40sp"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"/>
+            <ImageButton
+                android:id="@+id/declineimg"
+                android:layout_width="match_parent"
+                android:layout_height="300sp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/decline_crunch" />
+
+            <TextView
+                android:id="@+id/declinetxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Decline Crunches"
+                android:textSize="40sp"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"/>
+            <ImageButton
+                android:id="@+id/dumbellsideimg"
+                android:layout_width="match_parent"
+                android:layout_height="300sp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/dumbell_side_bends" />
+
+            <TextView
+                android:id="@+id/dumbellsidetxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dumbell Side Bends"
+                android:textSize="40sp"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"/>
+
+            <ImageButton
+                android:id="@+id/hanging_leg_raiseimg"
+                android:layout_width="match_parent"
+                android:layout_height="300sp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/hanging_leg_raise" />
+
+            <TextView
+                android:id="@+id/hanging_leg_raisetxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hanging Leg Raise"
+                android:textSize="40sp"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"/>
+
+            <ImageButton
+                android:id="@+id/seated_jack_knifeimg"
+                android:layout_width="match_parent"
+                android:layout_height="300sp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/seated_jack_knife" />
+
+            <TextView
+                android:id="@+id/seated_jack_knifetxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seated Jack Knife"
+                android:textSize="40sp"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"/>
+
+            <ImageButton
+                android:id="@+id/twisted_crunchimg"
+                android:layout_width="match_parent"
+                android:layout_height="300sp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/twisted_crunch" />
+
+            <TextView
+                android:id="@+id/twisted_crunchtxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Twisted Crunch"
+                android:textSize="40sp"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

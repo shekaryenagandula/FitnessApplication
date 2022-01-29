@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">Gym Application</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="tab_text_1">Excercise</string>
+    <string name="tab_text_2">Diet</string>
+    <string name="tab_text_3">Calc.</string>
+    <string name="plankDescription" formatted="true">
+        Neutralize your neck and spine by looking at a spot on the floor about a foot beyond your hands. Your head should be in line with your back. Hold the position for 20 seconds. As you get more comfortable with the move, hold your plank for as long as possible without compromising your form or breath.
+    </string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="title_activity_drawer">drawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+    <string name="diet1_title">1. The Paleo Diet</string>
+    <string name="diet1_content" formatted="true">The paleo diet claims that you should eat the same foods that your hunter-gatherer ancestors ate before agriculture developed.
+
+The theory is that most modern diseases can be linked to the Western diet and the consumption of grains, dairy, and processed foods.
+
+While it’s debatable whether this diet really provides the same foods your ancestors ate, it is linked to several impressive health benefits.
+
+How it works: The paleo diet emphasizes whole foods, lean protein, vegetables, fruits, nuts, and seeds, while discouraging processed foods, sugar, dairy, and grains.
+
+Some more flexible versions of the paleo diet also allow for dairy like cheese and butter, as well as tubers like potatoes and sweet potatoes.
+
+Weight loss: Several studies have shown that the paleo diet can lead to significant weight loss and reduced waist size (1Trusted Source, 2Trusted Source, 3Trusted Source, 4Trusted Source).
+
+In studies, paleo dieters automatically eat much fewer carbs, more protein, and 300–900 fewer calories per day (1Trusted Source, 2Trusted Source, 3Trusted Source, 4Trusted Source).
+
+Other benefits: The diet seems effective at reducing risk factors for heart disease, such as cholesterol, blood sugar, blood triglycerides, and blood pressure (5Trusted Source, 6Trusted Source, 7Trusted Source).
+
+The downside: The paleo diet eliminates whole grains, legumes, and dairy, which are healthy and nutritious.</string>
+
+    <string name="diet2_title">2. The Vegan Diet</string>
+    <string name="diet2_content" formatted="true">The vegan diet restricts all animal products for ethical, environmental, or health reasons.
+
+Veganism is also associated with resistance to animal exploitation and cruelty.
+
+How it works: Veganism is the strictest form of vegetarianism.
+
+In addition to eliminating meat, it eliminates dairy, eggs, and animal-derived products, such as gelatin, honey, albumin, whey, casein, and some forms of vitamin D3.
+
+Weight loss: A vegan diet seems to be very effective at helping people lose weight — often without counting calories — because its very low fat and high fiber content may make you feel fuller for longer.
+
+Vegan diets are consistently linked to lower body weight and body mass index (BMI) compared to other diets (8Trusted Source, 9Trusted Source, 10Trusted Source, 11Trusted Source, 12Trusted Source).
+
+One 18-week study showed that people on a vegan diet lost 9.3 pounds (4.2 kg) more than those on a control diet. The vegan group was allowed to eat until fullness, but the control group had to restrict calories (13Trusted Source).
+
+However, calorie for calorie, vegan diets are not more effective for weight loss than other diets (14Trusted Source).
+
+Weight loss on vegan diets is primarily associated with reduced calorie intake.
+
+Other benefits: Plant-based diets are linked to a reduced risk of heart disease, type 2 diabetes, and premature death (15Trusted Source, 16Trusted Source, 17Trusted Source, 18Trusted Source, 19Trusted Source).
+
+Limiting processed meat may also reduce your risk of Alzheimer’s disease and dying from heart disease or cancer (20Trusted Source, 21Trusted Source, 22Trusted Source, 23Trusted Source, 24Trusted Source).
+
+The downside: Because vegan diets eliminate animal foods completely, they may be low in several nutrients, including vitamin B12, vitamin D, iodine, iron, calcium, zinc, and omega-3 fatty acids (25Trusted Source, 26Trusted Source, 27Trusted Source, 28Trusted Source, 29Trusted Source).</string>
+
+    <string name="diet3_title">3. Low-Carb Diets</string>
+    <string name="diet3_content" formatted="true">Low-carb diets have been popular for decades — especially for weight loss.
+
+There are several types of low-carb diets, but all involve limiting carb intake to 20–150 grams per day.
+
+The primary aim of the diet is to force your body to use more fats for fuel instead of using carbs as a main source of energy.
+
+How it works: Low-carb diets emphasize unlimited amounts of protein and fat while severely limiting your carb intake.
+
+When carb intake is very low, fatty acids are moved into your blood and transported to your liver, where some of them are turned into ketones.
+
+Your body can then use fatty acids and ketones in the absence of carbs as its primary energy source.
+
+Weight loss: Numerous studies indicate that low-carb diets are extremely helpful for weight loss, especially in overweight and obese individuals (30Trusted Source, 31Trusted Source, 32Trusted Source, 33Trusted Source, 34Trusted Source).
+
+They seem to be very effective at reducing dangerous belly fat, which can become lodged around your organs (35Trusted Source, 36Trusted Source).
+
+People on very low-carb diets commonly reach a state called ketosis. Many studies note that ketogenic diets lead to more than twice the weight loss than a low-fat, calorie-restricted diet (35Trusted Source, 37Trusted Source, 38Trusted Source, 39Trusted Source).
+
+Other benefits: Low-carb diets tend to reduce your appetite and make you feel less hungry, leading to an automatic reduction in calorie intake (40Trusted Source, 41Trusted Source).
+
+Furthermore, low-carb diets may benefit many major disease risk factors, such as blood triglycerides, cholesterol levels, blood sugar levels, insulin levels, and blood pressure (34Trusted Source, 42Trusted Source, 43, 44Trusted Source, 45Trusted Source).
+
+The downside: Low-carb diets do not suit everyone. Some feel great on them while others feel miserable.
+
+Some people may experience an increase in “bad” LDL cholesterol (46Trusted Source).
+
+In extremely rare cases, very low-carb diets can cause a serious condition called nondiabetic ketoacidosis. This condition seems to be more common in lactating women and can be fatal if left untreated (47Trusted Source, 48Trusted Source, 49Trusted Source, 50Trusted Source).
+
+However, low-carb diets are safe for the majority of people.
+
+SUMMARY
+Low-carb diets severely limit carb intake and push your body to use fat for fuel. They aid weight loss and are linked to many other health benefits.
+
+</string>
+
+    <string name="diet4_title">4. The Dukan Diet</string>
+    <string name="diet4_content" formatted="true">
+
+The Dukan diet is a high-protein, low-carb weight loss diet split into four phases — two weight loss phases and two maintenance phases.
+
+How long you stay in each phase depends on how much weight you need to lose. Each phase has its own dietary pattern.
+
+How it works: The weight loss phases are primarily based on eating unlimited high-protein foods and mandatory oat bran.
+
+The other phases involve adding non-starchy vegetables followed by some carbs and fat. Later on, there will be fewer and fewer pure protein days to maintain your new weight.
+
+Weight loss: In one study, women following the Dukan diet ate about 1,000 calories and 100 grams of protein per day and lost an average of 33 pounds (15 kg) in 8–10 weeks (51Trusted Source).
+
+Also, many other studies show that high-protein, low-carb diets may have major weight loss benefits (52Trusted Source, 53Trusted Source, 54Trusted Source, 55Trusted Source).
+
+These include a higher metabolic rate, a decrease in the hunger hormone ghrelin and an increase in several fullness hormones (56Trusted Source, 57Trusted Source, 58Trusted Source, 59Trusted Source).
+
+Other benefits: Apart from weight loss, there are no recorded benefits of the Dukan diet in scientific literature.
+
+The downside: There is very little quality research available on the Dukan diet.
+
+The Dukan diet limits both fat and carbs — a strategy not based on science. On the contrary, consuming fat as part of a high-protein diet seems to increase metabolic rate compared to both low-carb and low-fat diets (60Trusted Source).
+
+What’s more, fast weight loss achieved by severe calorie restriction tends to cause significant muscle loss (61Trusted Source).
+
+The loss of muscle mass and severe calorie restriction may also cause your body to conserve energy, making it very easy to regain the weight after losing it (62Trusted Source, 63Trusted Source, 64Trusted Source, 65Trusted Source).
+
+SUMMARY
+The Dukan diet has not been tested in quality human studies. The diet may cause weight loss, but it also may slow down your metabolism and make you lose muscle mass along with fat mass.
+
+    </string>
+
+    <string name="diet5_title">9. Intermittent Fasting</string>
+    <string name="diet5_content" formatted="true">
+        Intermittent fasting cycles your body between periods of fasting and eating.
+
+Rather than restricting the foods you eat, it controls when you eat them. Thus, it can be seen as more of an eating pattern than a diet.
+
+The most popular ways to do intermittent fasting are:
+
+The 16/8 method: Involves skipping breakfast and restricting your daily eating period to eight hours, subsequently fasting for the remaining 16 hours of the day.
+The eat-stop-eat method: Involves 24-hour fasts once or twice per week on non-consecutive days.
+The 5:2 diet: On two non-consecutive days of the week, you restrict your intake to 500–600 calories. You do not restrict intake on the five remaining days.
+The Warrior Diet: Eat small amounts of raw fruits and vegetables during the day and one huge meal at night.
+How it works: Intermittent fasting is commonly used for weight loss because it leads to relatively easy calorie restriction.
+
+It can make you eat fewer calories overall — as long as you don’t overcompensate by eating much more during the eating periods.
+
+Weight loss: Intermittent fasting is generally very successful for weight loss. It has been shown to cause weight loss of 3–8% over a period of 3–24 weeks, which is a lot compared to most weight loss diets (99Trusted Source, 100Trusted Source).
+
+In addition to causing less muscle loss than standard calorie restriction, it may increase your metabolic rate by 3.6–14% in the short term (99Trusted Source, 101Trusted Source, 102Trusted Source, 103Trusted Source).
+
+Other benefits: Intermittent fasting may reduce markers of inflammation, cholesterol levels, blood triglycerides, and blood sugar levels (104Trusted Source, 105Trusted Source, 106Trusted Source, 107Trusted Source).
+
+Furthermore, intermittent fasting has been linked to increased levels of human growth hormone (HGH), improved insulin sensitivity, improved cellular repair, and altered gene expressions (108Trusted Source, 109Trusted Source, 110Trusted Source, 111Trusted Source, 112Trusted Source).
+
+Animal studies also suggest that it may help new brain cells grow, lengthen lifespan, and protect against Alzheimer’s disease and cancer (113Trusted Source, 114Trusted Source, 115Trusted Source, 116Trusted Source).
+
+The downside: Although intermittent fasting is safe for well-nourished and healthy people, it does not suit everyone.
+
+Some studies note that it’s not as beneficial for women as it is for men (117Trusted Source, 118Trusted Source).
+
+In addition, some people should avoid fasting, including those sensitive to drops in blood sugar levels, pregnant women, breastfeeding moms, teenagers, children, and people who are malnourished, underweight, or nutrient deficient.
+
+SUMMARY
+Intermittent fasting lets your body cycle between fasting and eating. It is very effective for weight loss and has been linked to numerous health benefits.
+    </string>
+
+
+</resources>
