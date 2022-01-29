@@ -58,31 +58,4 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         return 3;
     }
 
-/*    @Override
-    public boolean onOptionsItemSelected(MenuItem item)
-    {
-        switch(item.getItemId())
-        {
-            case R.id.about:
-                Toast.makeText(this,"About is Clicked",Toast.LENGTH_LONG).show();
-                //            startActivity(new Intent(this,About.class));
-                break;
-            case R.id.feedback:
-                Toast.makeText(this,"Enter Valuable Feedback",Toast.LENGTH_SHORT).show();
-                //              startActivity(new Intent(this,Feedback.class));
-                break;
-            case R.id.logout:
-                Toast.makeText(this,"Logged Out",Toast.LENGTH_LONG).show();
-//                startActivity(new Intent(this,SignIn.class));
-                break;
-            case R.id.exit:
-                finish();
-                System.exit(0);
-            default:
-                return super.onOptionsItemSelected(item);
-        }
-        return true;
-    }
-
-*/
 }

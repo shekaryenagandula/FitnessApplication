@@ -55,7 +55,7 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sagrika"
+            android:text="Shekar"
             android:textSize="25sp"
             android:fontFamily="sans-serif"/>
         <TextView
@@ -69,7 +69,7 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Shekar"
+            android:text="Sagrika"
             android:textSize="25sp"
             android:fontFamily="sans-serif"/>
         <TextView
@@ -84,6 +84,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Pooja"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif"/>
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ankita"
             android:textSize="25sp"
             android:fontFamily="sans-serif"/>
 

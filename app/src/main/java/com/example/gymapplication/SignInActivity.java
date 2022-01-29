@@ -51,7 +51,7 @@ public class SignInActivity extends AppCompatActivity {
     {
 
 
-        // Take the value of two edit texts in Strings
+        //converting into string
         String email, password;
         email = emailTextView.getText().toString();
         password = passwordTextView.getText().toString();
