@@ -109,11 +109,10 @@ public class RegistrationActivity extends AppCompatActivity {
                                 .show();
                     }
                     else {
-
                         RegistrationActivity.this.startActivity(new Intent(getApplicationContext(),SignInActivity.class));
                         Toast.makeText(getApplicationContext(),
                                 "Registration successful!",
-                                Toast.LENGTH_LONG)
+                                Toast.LENGTH_SHORT)
                                 .show();
                         Toast.makeText(getApplicationContext(),
                                 "Sign In to continue",

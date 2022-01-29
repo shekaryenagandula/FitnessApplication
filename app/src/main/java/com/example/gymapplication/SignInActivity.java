@@ -29,14 +29,14 @@ public class SignInActivity extends AppCompatActivity {
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signin);
-        // taking instance of FirebaseAuth
+
         mAuth = FirebaseAuth.getInstance();
 
-        // initialising all views through id defined above
+
         emailTextView = findViewById(R.id.email);
         passwordTextView = findViewById(R.id.password);
         Btn = findViewById(R.id.login);
-        // Set on Click Listener on Sign-in button
+        //Sign in - onClick
         Btn.setOnClickListener((View v)->{
             loginUserAccount();
         });
@@ -56,7 +56,7 @@ public class SignInActivity extends AppCompatActivity {
         email = emailTextView.getText().toString();
         password = passwordTextView.getText().toString();
 
-        // validations for input email and password
+        //input validations
         if (TextUtils.isEmpty(email)) {
             Toast.makeText(getApplicationContext(),
                     "Please enter email!!",
