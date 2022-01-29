@@ -101,13 +101,10 @@ public class RegistrationActivity extends AppCompatActivity {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task)
                 {
-                    Toast.makeText(getApplicationContext(),
-                            "Registration successful!",
-                            Toast.LENGTH_LONG)
-                            .show();
+
                     if (!task.isSuccessful()) {
                         Toast.makeText(getApplicationContext(),
-                                "Auth failed..",
+                                "Auth failed..this mail already in use..",
                                 Toast.LENGTH_LONG)
                                 .show();
                     }
@@ -115,8 +112,12 @@ public class RegistrationActivity extends AppCompatActivity {
 
                         RegistrationActivity.this.startActivity(new Intent(getApplicationContext(),SignInActivity.class));
                         Toast.makeText(getApplicationContext(),
-                                "Sign In to continue",
+                                "Registration successful!",
                                 Toast.LENGTH_LONG)
+                                .show();
+                        Toast.makeText(getApplicationContext(),
+                                "Sign In to continue",
+                                Toast.LENGTH_SHORT)
                                 .show();
                         RegistrationActivity.this.finish();
                     }

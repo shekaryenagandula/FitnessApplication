@@ -67,7 +67,7 @@ public class SignInActivity extends AppCompatActivity {
 
         if (TextUtils.isEmpty(password) || password.length() <6) {
             Toast.makeText(getApplicationContext(),
-                    "Please enter password as per requirement!!",
+                    "Password is Empty or less then 6 characters.",
                     Toast.LENGTH_LONG)
                     .show();
             return;

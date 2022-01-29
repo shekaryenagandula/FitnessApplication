@@ -61,8 +61,7 @@ public class CalcBMI extends AppCompatActivity {
             String weightvalue = weighttxt.getText().toString();
             float weight = Float.valueOf(weightvalue);
 
-            try {
-                if(heightvalue.isEmpty()  || weightvalue.isEmpty()){
+                if(TextUtils.isEmpty(heightvalue)  || TextUtils.isEmpty(weightvalue)){
                     Toast.makeText(getApplicationContext(), "Not valid inputs", Toast.LENGTH_LONG).show();
 
                 }else{
@@ -82,10 +81,6 @@ public class CalcBMI extends AppCompatActivity {
                     }
                 }
 
-            }
-            catch ( Exception e){
-                Toast.makeText(getApplicationContext(),  "Invalid inputs", Toast.LENGTH_LONG).show();
-                }
 
 
             }

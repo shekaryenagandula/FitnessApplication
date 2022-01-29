@@ -48,9 +48,9 @@ public class TabbedActivity extends AppCompatActivity implements NavigationView.
         binding = ActivityTabbedBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         setNavigationViewListener();
+
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
- //       toolbar =findViewById(R.id.my_toolbar);
-   //     setSupportActionBar(toolbar);
+
         drawerLayout=findViewById(R.id.my_drawer_layout);
         drawerLayout.setDrawerShadow(R.drawable.menu, GravityCompat.START);
         actionBarDrawerToggle=new ActionBarDrawerToggle(this,drawerLayout,R.string.nav_open,R.string.nav_close);
@@ -89,7 +89,12 @@ public class TabbedActivity extends AppCompatActivity implements NavigationView.
 
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
-
+            case R.id.nav_about:
+            {
+                Intent i=new Intent(this,AboutPage.class);
+                startActivity(i);
+                break;
+            }
             case R.id.nav_logout: {
                 mAuth.signOut();
                 signOutUser();
@@ -101,7 +106,6 @@ public class TabbedActivity extends AppCompatActivity implements NavigationView.
                 finish();
                 break;
             }
-
             case R.id.nav_feedback:
             {
                 Intent i=new Intent(this,FeedbackActivity.class);
@@ -115,21 +119,6 @@ public class TabbedActivity extends AppCompatActivity implements NavigationView.
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
         }
-/*
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-        FirebaseUser currentUser=mAuth.getCurrentUser();
-        String uid=mAuth.getCurrentUser().getUid().toString();
-        if(currentUser == null){
-
-        }
-        else {
-            Toast.makeText(this, uid, Toast.LENGTH_SHORT).show();
-        }
-    }
-*/
 
     private void signOutUser() {
 
