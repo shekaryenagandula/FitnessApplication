@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutMembership"
+    android:background="#CCCCCC"
+    >
+<!--
+
+
+
+-->
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="100sp"
+    android:text="Choose membership:"
+    android:textSize="30sp"
+    android:gravity="center"
+    android:textAlignment="textStart"
+    tools:ignore="RtlCompat" />
+    <TextView
+        android:id="@+id/dietplan1"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:text="Diet Plan1"
+        android:textSize="30sp"/>
+<!--    <TextView
+        android:id="@+id/dietplan2"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:text="Diet Plan2"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/dietplan3"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:text="Diet Plan3"
+        android:textSize="30sp"/>
+-->
+
+</LinearLayout>

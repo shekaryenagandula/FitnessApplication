@@ -7,12 +7,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-public class AboutPage extends AppCompatActivity {
+public class AboutActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_about_page);
+        setContentView(R.layout.activity_about);
+
         ActionBar actionBar=getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
 
@@ -26,6 +27,5 @@ public class AboutPage extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-
 
 }

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.gymapplication">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.gymapplication" >
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -10,9 +12,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
         <activity
-            android:name=".AboutPage"
+            android:name=".AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutMembership"
             android:exported="false" />
         <activity
             android:name=".FeedbackActivity"
@@ -41,17 +46,48 @@
             android:label="@string/title_activity_tabbed"
         -->
         <activity
+            android:name=".PaymentActivity"
+            android:exported="true"
+            android:label="Fitness Subscription " >
+        </activity>
+        <activity
             android:name=".RegistrationActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <receiver
+            android:name="com.razorpay.RzpTokenReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="rzp.device_token.share" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.razorpay.CheckoutActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:theme="@style/CheckoutTheme" >
+            <intent-filter>
+                <data
+                    android:host="rzp.io"
+                    android:scheme="io.rzp" />
+            </intent-filter>
+        </activity> <!-- Add your API key here -->
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_live_prXGS5tse7XPaT" />
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
     </application>
 
 </manifest>

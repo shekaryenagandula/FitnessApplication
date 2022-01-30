@@ -3,26 +3,17 @@ package com.example.gymapplication;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
-import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.tabs.TabLayout;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.PersistableBundle;
-import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
-import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Toast;
 import android.widget.Toolbar;
@@ -30,7 +21,6 @@ import android.widget.Toolbar;
 import com.example.gymapplication.ui.main.SectionsPagerAdapter;
 import com.example.gymapplication.databinding.ActivityTabbedBinding;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 
 
 public class TabbedActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
@@ -89,9 +79,9 @@ public class TabbedActivity extends AppCompatActivity implements NavigationView.
 
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
-            case R.id.nav_about:
+            case R.id.nav_membership:
             {
-                Intent i=new Intent(this,AboutPage.class);
+                Intent i=new Intent(this, AboutMembership.class);
                 startActivity(i);
                 break;
             }
@@ -99,6 +89,11 @@ public class TabbedActivity extends AppCompatActivity implements NavigationView.
                 mAuth.signOut();
                 signOutUser();
                 finish();
+                break;
+            }
+            case R.id.nav_about: {
+                Intent i=new Intent(this, AboutActivity.class);
+                startActivity(i);
                 break;
             }
             case R.id.nav_exit:{

@@ -20,8 +20,9 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="pay_button">Pay using Razorpay</string>
 
-
+    <string name="choose_plan">Thanks for choosing our plan.</string>
     <string name="diet1_title">1. The Paleo Diet</string>
     <string name="diet1_content" formatted="true">The paleo diet claims that you should eat the same foods that your hunter-gatherer ancestors ate before agriculture developed.
 

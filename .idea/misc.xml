@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/yenag/AndroidStudioProjects/GymApplication/app/src/main/res/layout/abs_exer.xml" value="0.1" />
+        <entry key="..\:/Users/yenag/AndroidStudioProjects/GymApplication/app/src/main/res/layout/activity_about.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/yenag/AndroidStudioProjects/GymApplication/app/src/main/res/layout/activity_about_page.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/yenag/AndroidStudioProjects/GymApplication/app/src/main/res/layout/activity_calc_bmi.xml" value="0.1" />
         <entry key="..\:/Users/yenag/AndroidStudioProjects/GymApplication/app/src/main/res/layout/activity_calc_bodyfat.xml" value="0.20416666666666666" />
@@ -11,6 +12,7 @@
         <entry key="..\:/Users/yenag/AndroidStudioProjects/GymApplication/app/src/main/res/layout/activity_home.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/yenag/AndroidStudioProjects/GymApplication/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/yenag/AndroidStudioProjects/GymApplication/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/yenag/AndroidStudioProjects/GymApplication/app/src/main/res/layout/activity_payment.xml" value="0.25" />
         <entry key="..\:/Users/yenag/AndroidStudioProjects/GymApplication/app/src/main/res/layout/activity_registration.xml" value="0.12777777777777777" />
         <entry key="..\:/Users/yenag/AndroidStudioProjects/GymApplication/app/src/main/res/layout/activity_signin.xml" value="0.18" />
         <entry key="..\:/Users/yenag/AndroidStudioProjects/GymApplication/app/src/main/res/layout/activity_tabbed.xml" value="0.22" />
